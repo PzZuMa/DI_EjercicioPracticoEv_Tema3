@@ -15,7 +15,7 @@ public class Aplication extends Application {
     @Override
     public void start(Stage stage){
         ventana = stage;
-        loadFXML("views/main-view.fxml", "Login", 250, 350, false);
+        loadFXML("views/main-view.fxml", "Login", 800, 500, false);
         stage.show();
     }
 
